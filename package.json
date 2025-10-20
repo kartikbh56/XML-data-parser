@@ -1,0 +1,21 @@
+{
+  "name": "experian-xml-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "fast-xml-parser": "^4.0.12",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.5-lts.1",
+    "helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
